@@ -63,8 +63,7 @@ module MyApp = {
     <SafeArea.View style=styles##safeAreaView>
       <View>
         <Text>
-          Look, I'm safe! Not under a status bar or notch or home indicator or
-          anything! Very cool
+          "Hello world"->React.string
         </Text>
       </View>
     </SafeArea.View>
@@ -76,6 +75,24 @@ let make = () => {
   <SafeArea.Provider>
     <MyApp />
   </SafeArea.Provider>
+};
+```
+
+### Usage with forceInset
+
+```reason
+open ReactNative
+open ReactNativeSafeAreaView;
+
+[@react.component]
+let make = () => {
+  <SafeArea.View forceInset=SafeArea.View.inset(~top=`always, ())>
+    <View>
+      <Text>
+        "Hello world"->React.string
+      </Text>
+    </View>
+  </SafeArea.View>
 };
 ```
 
