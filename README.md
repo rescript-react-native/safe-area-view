@@ -8,7 +8,7 @@
 [BuckleScript](https://bucklescript.github.io) bindings for
 [`@react-native-community/something`](https://github.com/react-native-community/something).
 
-Exposed as `ReactNativeSomething` module.
+Exposed as `ReactNativeSafeAreaView` module.
 
 `@reason-react-native/safe-area-view` X.y._ means it's compatible with
 `@react-native-community/something` X.y._
