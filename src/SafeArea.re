@@ -1,5 +1,5 @@
 module Provider = {
-  [@bs.module "react-native-safe-area-view"] [@react.component]
+  [@bs.module "react-native-safe-area-context"] [@react.component]
   external make: (~children: React.element) => React.element =
     "SafeAreaProvider";
 };
@@ -29,5 +29,5 @@ module View = {
       ~children: React.element
     ) =>
     React.element =
-    "SafeAreaView";
+    "default";
 };
