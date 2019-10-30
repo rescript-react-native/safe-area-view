@@ -45,7 +45,7 @@ your `bsconfig.json`. Something like
 ## Usage
 
 ⚠️ In order to avoid name collision (`SafeAreaView` is already defined in React
-Native), the components are scopde in `SafeArea`. Checkout this example :
+Native), the components are scoped in `SafeArea`. Checkout this example :
 
 ```reason
 open ReactNative
