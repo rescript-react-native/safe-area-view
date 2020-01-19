@@ -6,12 +6,12 @@
 
 [ReasonML](https://reasonml.github.io) /
 [BuckleScript](https://bucklescript.github.io) bindings for
-[`@react-native-community/something`](https://github.com/react-native-community/something).
+[`@react-native-community/react-native-safe-area-view`](https://github.com/react-native-community/react-native-safe-area-view).
 
 Exposed as `ReactNativeSafeAreaView` module.
 
 `@reason-react-native/safe-area-view` X.y._ means it's compatible with
-`@react-native-community/something` X.y._
+`@react-native-community/react-native-safe-area-view` X.y._
 
 ## Installation
 
