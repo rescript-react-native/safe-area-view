@@ -1,9 +1,9 @@
 'use strict';
 
 
-var Provider = { };
+var Provider = {};
 
-var View = { };
+var View = {};
 
 exports.Provider = Provider;
 exports.View = View;
