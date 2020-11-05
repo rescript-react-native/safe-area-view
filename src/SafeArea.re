@@ -18,8 +18,7 @@ module View = {
       ~horizontal: [@bs.string] [ | `always | `never]=?,
       unit
     ) =>
-    inset =
-    "";
+    inset;
 
   [@bs.module "react-native-safe-area-view"] [@react.component]
   external make:
