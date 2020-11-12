@@ -15,7 +15,7 @@ Exposed as `ReactNativeSafeAreaView` module.
 ## Installation
 
 When
-[`@react-native-community/react-native-safe-area-view`](`https://github.com/react-native-community/react-native-safe-area-view`)
+[`@react-native-community/react-native-safe-area-view`](https://github.com/react-native-community/react-native-safe-area-view)
 is properly installed & configured by following their installation instructions,
 you can install the bindings:
 
