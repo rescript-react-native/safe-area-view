@@ -1,5 +1,7 @@
 # Changelog of `@reason-react-native/safe-area-view`
 
-## 1.0.0 - 2019-10-30
+## 2.0.0 - 2020-11-12
 
-1.0.0 release
+- 2.0.0 compat
+- rescript 8.2
+- reason-react-native 0.63
