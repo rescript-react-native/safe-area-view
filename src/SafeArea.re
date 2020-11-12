@@ -5,17 +5,19 @@ module Provider = {
 };
 
 module View = {
+  type insetValue = [ | `always | `never];
+
   type inset;
 
   [@bs.obj]
   external inset:
     (
-      ~top: [@bs.string] [ | `always | `never]=?,
-      ~bottom: [@bs.string] [ | `always | `never]=?,
-      ~left: [@bs.string] [ | `always | `never]=?,
-      ~right: [@bs.string] [ | `always | `never]=?,
-      ~vertical: [@bs.string] [ | `always | `never]=?,
-      ~horizontal: [@bs.string] [ | `always | `never]=?,
+      ~top: insetValue=?,
+      ~bottom: insetValue=?,
+      ~left: insetValue=?,
+      ~right: insetValue=?,
+      ~vertical: insetValue=?,
+      ~horizontal: insetValue=?,
       unit
     ) =>
     inset;
