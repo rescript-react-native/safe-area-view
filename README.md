@@ -5,17 +5,17 @@
 [![Chat](https://img.shields.io/discord/235176658175262720.svg?logo=discord&colorb=blue)](https://reasonml-community.github.io/reason-react-native/discord/)
 
 [ReScript](https://rescript-lang.org) / [Reason](https://reasonml.github.io) bindings for
-[`@react-native-community/react-native-safe-area-view`](https://github.com/react-native-community/react-native-safe-area-view).
+[`react-native-safe-area-view`](https://github.com/react-navigation/react-native-safe-area-view).
 
 Exposed as `ReactNativeSafeAreaView` module.
 
 `@reason-react-native/safe-area-view` X.y.\* means it's compatible with
-`@react-native-community/react-native-safe-area-view` X.y.\*
+`react-native-safe-area-view` X.y.\*
 
 ## Installation
 
 When
-[`@react-native-community/react-native-safe-area-view`](https://github.com/react-native-community/react-native-safe-area-view)
+[`react-native-safe-area-view`](https://github.com/react-navigation/react-native-safe-area-view)
 is properly installed & configured by following their installation instructions,
 you can install the bindings:
 
