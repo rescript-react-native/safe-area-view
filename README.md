@@ -1,15 +1,15 @@
-# `@reason-react-native/safe-area-view`
+# `@rescript-react-native/safe-area-view`
 
-[![Build Status](https://github.com/reason-react-native/safe-area-view/workflows/Build/badge.svg)](https://github.com/reason-react-native/safe-area-view/actions)
-[![Version](https://img.shields.io/npm/v/@reason-react-native/safe-area-view.svg)](https://www.npmjs.com/@reason-react-native/safe-area-view)
-[![Chat](https://img.shields.io/discord/235176658175262720.svg?logo=discord&colorb=blue)](https://reasonml-community.github.io/reason-react-native/discord/)
+[![Build Status](https://github.com/rescript-react-native/safe-area-view/workflows/Build/badge.svg)](https://github.com/rescript-react-native/safe-area-view/actions)
+[![Version](https://img.shields.io/npm/v/@rescript-react-native/safe-area-view.svg)](https://www.npmjs.com/@rescript-react-native/safe-area-view)
+[![ReScript Forum](https://img.shields.io/discourse/posts?color=e6484f&label=ReScript%20Forum&server=https%3A%2F%2Fforum.rescript-lang.org)](https://forum.rescript-lang.org/)
 
-[ReScript](https://rescript-lang.org) / [Reason](https://reasonml.github.io) bindings for
+[ReScript](https://rescript-lang.org) bindings for
 [`react-native-safe-area-view`](https://github.com/react-navigation/react-native-safe-area-view).
 
 Exposed as `ReactNativeSafeAreaView` module.
 
-`@reason-react-native/safe-area-view` X.y.\* means it's compatible with
+`@rescript-react-native/safe-area-view` X.y.\* means it's compatible with
 `react-native-safe-area-view` X.y.\*
 
 ## Installation
@@ -20,22 +20,22 @@ is properly installed & configured by following their installation instructions,
 you can install the bindings:
 
 ```console
-npm install @reason-react-native/safe-area-view
+npm install @rescript-react-native/safe-area-view
 # or
-yarn add @reason-react-native/safe-area-view
+yarn add @rescript-react-native/safe-area-view
 ```
 
-`@reason-react-native/safe-area-view` should be added to `bs-dependencies` in
+`@rescript-react-native/safe-area-view` should be added to `bs-dependencies` in
 your `bsconfig.json`:
 
 ```diff
 {
   //...
   "bs-dependencies": [
-    "reason-react",
-    "reason-react-native",
+    "@rescript/react",
+    "rescript-react-native",
     // ...
-+    "@reason-react-native/safe-area-view"
++    "@rescript-react-native/safe-area-view"
   ],
   //...
 }
@@ -46,7 +46,7 @@ your `bsconfig.json`:
 ⚠️ In order to avoid name collision (`SafeAreaView` is already defined in React
 Native), the components are scoped in `SafeArea`. Checkout this example :
 
-```reason
+```rescript
 open ReactNative
 open ReactNativeSafeAreaView;
 
@@ -79,7 +79,7 @@ let make = () => {
 
 ### Usage with forceInset
 
-```reason
+```rescript
 open ReactNative
 open ReactNativeSafeAreaView;
 
@@ -107,11 +107,11 @@ releases.
 ## Contribute
 
 Read the
-[contribution guidelines](https://github.com/reason-react-native/.github/blob/master/CONTRIBUTING.md)
+[contribution guidelines](https://github.com/rescript-react-native/.github/blob/master/CONTRIBUTING.md)
 before contributing.
 
 ## Code of Conduct
 
 We want this community to be friendly and respectful to each other. Please read
-[our full code of conduct](https://github.com/reason-react-native/.github/blob/master/CODE_OF_CONDUCT.md)
+[our full code of conduct](https://github.com/rescript-react-native/.github/blob/master/CODE_OF_CONDUCT.md)
 so that you can understand what actions will and will not be tolerated.
