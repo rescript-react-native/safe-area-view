@@ -1,5 +1,9 @@
 # Changelog of `@rescript-react-native/safe-area-view`
 
+## 2.0.2 - 2021-05-03
+
+ReScript
+
 ## 2.0.1 - 2020-11-18
 
 Fix npm description

@@ -1,5 +1,11 @@
 # `@rescript-react-native/safe-area-view`
 
+> ⚠️ **This library is deprecated.** It is no longer used in React Navigation and it has been succeeded by the _excellent_ [react-native-safe-area-context](https://github.com/th3rdwave/react-native-safe-area-context). Please use react-native-safe-area-context instead, or you are likely to have a bad time.
+
+➡️ <https://github.com/rescript-react-native/safe-area-context>
+
+<hr />
+
 [![Build Status](https://github.com/rescript-react-native/safe-area-view/workflows/Build/badge.svg)](https://github.com/rescript-react-native/safe-area-view/actions)
 [![Version](https://img.shields.io/npm/v/@rescript-react-native/safe-area-view.svg)](https://www.npmjs.com/@rescript-react-native/safe-area-view)
 [![ReScript Forum](https://img.shields.io/discourse/posts?color=e6484f&label=ReScript%20Forum&server=https%3A%2F%2Fforum.rescript-lang.org)](https://forum.rescript-lang.org/)
